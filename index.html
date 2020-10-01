@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+  <div class="d-flex flex-wrap Mb-5 Ml-0 text-center">
+  <button id="felipe" class="btn-lg">felipe</button>
+  <button onClick="borrartabla(); generartable()" class="btn btn-outline-success  col-sm-1 btn-lg">TABLA COMPLETA</button>
+  <button onClick="borrartabla(); generartablemen()" class="btn btn-outline-success  col-sm-1 btn-lg">TABLA HOMBRES</button>
+  <button onClick="borrartabla(); generartablewomen()" class="btn btn-outline-success  col-sm-1 btn-lg">TABLA MUJERES</button>
+  <button onClick="borrartabla(); generartablerango()" class="btn btn-outline-success  col-sm-1 btn-lg">TABLA RANGO</button>
+  <button onClick="borrartabla(); generartablecorreo()" class="btn btn-outline-success  col-sm-1 btn-lg">CORREOS ACADEMLO</button>
+</div>
+  <table id="table-users"class="table table-hover table-dark .ml-3">
+    <thead>
+      <tr>
+          <td class="font-weight-bold">Name</td>
+          <td class="font-weight-bold">Email</td>
+          <td class="font-weight-bold">Age</td>
+          <td class="font-weight-bold">Gender</td>
+          <td class="font-weight-bold">Facebook</td>
+          <td class="font-weight-bold">Twitter</td>
+      </tr>
+    </thead>
+    <tbody id="body-table-users">
+     
+    </tbody>
+  </table>
+  <button onClick="borrarcard();generarcard()" class="btn btn-outline-warning Mb-5">GENERAR CARDS</button>
+  <div id="content-cards" class="row .ml-3">
+     
+  </div>
+  </div>
+</div>
+</body>
+<script src="pruebainner.js"></script>
+</html>
